@@ -416,17 +416,6 @@
         "changeable": 1,
        "filterable": 1,
        "ext": "./js/6V.js"},
-
-{  
-       "key": "彼岸",
-       "name": "🍃彼岸┃采集",
-       "type": 3,
-       "api": "./api/drpy2.min.js",                "searchable": 1,
-       "quickSearch": 1,
-        "changeable": 1,
-       "filterable": 1,
-       "ext": "./js/AppGet.js?type=url&params=https://mfsp33.top$1234567887654321$1234567887654321"},
-
         {  
        "key": "4K4K",
        "name": "🍃剧院┃采集",
