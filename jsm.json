@@ -210,7 +210,6 @@
       {"key":"csp_Wobg_欧歌分享","name":"☁欧歌┃云","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://woog.nxog.eu.org/$$$cfg$$$1$$$./lib/wogg.json$$$OUGE"},
       {"key":"csp_Wobg_小二网盘","name":"☁小二┃云","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://erxiaofn.click/$$$cfg$$$1$$$./lib/wogg.json$$$ERXIAO"},
 {"key":"csp_Wobg_闪电优汐","name":"☁闪电┃云","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$http://1.95.79.193/$$$cfg$$$1$$$./lib/wogg.json$$$SHANDIAN"},
-{"key":"csp_Wobg_奥秘影视","name":"☁奥秘┃云","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://vip.omii.top/$$$cfg$$$1$$$./lib/wogg.json"},
 {"key":"yyds","name":"☁多多┃云","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://tv.yydsys.cc/$$$noproxy$$$1$$$./lib/wogg.json"},
 	{
 			"key": "至臻|网盘",
