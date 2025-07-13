@@ -216,55 +216,10 @@
         "changeable": 1,
        "filterable": 1,
        "ext": "./js/Emby.js"},
- {
-      "key": "榴莲",
-      "name": "榴莲┃超清┃弹幕",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./lib/moyuer.php;md5;47c1ed59b337ca490da48b324980ba3c",
-      "ext": {
-        "url": "https://qjappcms.ll4k.xyz",
-        "dataKey": "1yGA85sJ5STtE7uj",
-        "dataIv": "1yGA85sJ5STtE7uj",
-        "deviceId": "",
-        "version": "50000"
-      }
-    },
-    {
-      "key": "蓝鹰",
-      "name": "蓝鹰┃超清┃弹幕",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./lib/moyuer.php;md5;47c1ed59b337ca490da48b324980ba3c",
-      "ext": {
-        "url": "http://172.247.192.138:18520",
-        "dataKey": "SuNlEkOLAoWJj1Oe",
-        "dataIv": "SuNlEkOLAoWJj1Oe",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
-      "key": "仓鼠",
-      "name": "仓鼠┃超清┃弹幕",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./lib/moyuer.php;md5;47c1ed59b337ca490da48b324980ba3c",
-      "ext": {
-        "url": "https://qjappcms.cs4k.top",
-        "dataKey": "Z98KXaLtO2wC1Pte",
-        "dataIv": "Z98KXaLtO2wC1Pte",
-        "deviceId": "",
-        "version": "120"
-      }
-    },
-        {"key": "py_瓜萌APP","name": "瓜萌","type": 3,"api": "./py/瓜萌APP.py","searchable": 1,"quickSearch": 1,"filterable": 1},
+        
 		{
             "key": "零度影视APP.py",
-            "name": "零度影视",
+            "name": "零度｜超清",
             "type": 3,
             "api": "./py/零度影视APP.py",
             "searchable": 1,
@@ -272,22 +227,32 @@
             "filterable": 1,
             "changeable": 1
         },
+            {
+      "key": "爱看机器人",
+      "name": "爱看｜超清",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "jar": "https://chuxinya.top/f/qY8NtX/pizazz.jar;md5;46761ee087c0f297de2abf92ec088591",
+      "filterable": 1
+    },
         {
       "key": "夕晨踏雪",
-      "name": "夕晨踏雪",
+      "name": "踏雪｜超清",
       "jar": "./lib/moyuer.php;md5;47c1ed59b337ca490da48b324980ba3c",
       "type": 3,
       "api": "csp_SP360"
     },
         {
 			"key": "牛牛",
-			"name": "牛牛┃4K",
+			"name": "牛牛｜超清",
 			"type": 3,
 			"api": "https://13826.kstore.space/mioaying.py"
 		},
 		{
 		"key": "QD4K",
-		"name": "巧技┃4K",
+		"name": "巧技┃超清",
 		"type": 3,
 		"api": "csp_AppYsV2",
 		"playerType": 2,
@@ -351,6 +316,7 @@
             "changeable": 1
         },
 
+    
         {
             "key": "cs",
             "name": "爱电影",
@@ -446,7 +412,7 @@
        "ext": "./js/HBO.js"},
 		{
       "key": "dyttzyw",
-      "name": "🍃电影天堂┃采集",
+      "name": "🍃天堂┃采集",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at",
       "searchable": 1,
@@ -454,7 +420,7 @@
       "categories": ["国产动漫", "日韩动漫", "国产剧","韩国剧","日本剧","短剧","香港剧","台湾剧","欧美剧","泰国剧","海外剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫"] },
 	 {
   "key": "瓜子影视",
-            "name": "瓜子影视",
+            "name": "瓜子｜APP",
             "type": 3,
             "api": "csp_XYQHiker",
             "jar": "./custom_spider.jar;md5;6f86d70c110eb76ad81084beeffaa198",
@@ -463,17 +429,7 @@
              "ext": "./lib/瓜子.json",
             "filterable": 1
     },
-    {
-      "key": "csp_XYQHiker_爱看影视",
-      "name": "爱看机器人",
-      "type": 3,
-      "api": "csp_XYQHiker",
-     "jar": "./custom_spider.jar;md5;6f86d70c110eb76ad81084beeffaa198",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/爱看影视.json"
-    },
+{"key": "py_瓜萌APP","name": "瓜萌｜APP","type": 3,"api": "./py/瓜萌APP.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 		{"key":"Moli","name":"HD魔力|网盘","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$noproxy$$$1$$$./lib/moli.json"},
 		{"key":"Ppxzy","name":"皮皮虾|网盘","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://ppxzy.ink$$$noproxy$$$1"},
 		{"key":"ddys","name":"低端影视|网盘","type":3,"api":"csp_Ddys","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://ddys.pro/$$$noproxy$$$1$$$"},
@@ -490,7 +446,7 @@
 		{"key":"PanSearch","name":"PanSearch|网盘搜索","type":3,"api":"csp_PanSearch","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy"},
 	 {
       "key": "度搜",
-      "name": "百度┃搜索",
+      "name": "度搜┃网盘搜索",
       "type": 3,
       "api": "csp_BdxdGuard",
       "searchable": 1,
@@ -499,7 +455,7 @@
 	  "jar":"./614QA8vJ.png;md5;0feab5a9c7fb7b34b734adcda25e98a6",
       "timeout": 25
     },
-		{"key":"Panta","name":"盘Ta|网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1$$$./lib/panta.txt$$$PANTA",
+		{"key":"Panta","name":"盘Ta|网盘搜索","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1$$$./lib/panta.txt$$$PANTA",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
