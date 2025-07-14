@@ -1,6 +1,6 @@
 {
 	"spider":"./pg.jar",
-	"logo": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/grok.png",
+	"logo": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/giteeai.png",
 	"sites":[
 		{
 			"key": "豆瓣",
@@ -238,13 +238,6 @@
       "filterable": 1
     },
         {
-      "key": "夕晨踏雪",
-      "name": "踏雪｜超清",
-      "jar": "./lib/moyuer.php;md5;47c1ed59b337ca490da48b324980ba3c",
-      "type": 3,
-      "api": "csp_SP360"
-    },
-        {
 			"key": "牛牛",
 			"name": "牛牛｜超清",
 			"type": 3,
@@ -446,7 +439,7 @@
 		{"key":"PanSearch","name":"PanSearch|网盘搜索","type":3,"api":"csp_PanSearch","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy"},
 	 {
       "key": "度搜",
-      "name": "度搜┃网盘搜索",
+      "name": "度搜|网盘搜索",
       "type": 3,
       "api": "csp_BdxdGuard",
       "searchable": 1,
