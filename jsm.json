@@ -1,6 +1,7 @@
 {
 	"spider":"./pg.jar",
-	"logo": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/minimax-color.png",
+		"wallpaper": "./wall.jpg",
+	"logo": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/grok.png",
 	"sites":[
 		{
 			"key": "豆瓣",
@@ -83,7 +84,7 @@
 				"ratio": 1.1
 			}
 		},
-		{"key":"AliShare","name":"阿里云盘影视分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1",
+		{"key":"AliShare","name":"阿里云盘分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -116,7 +117,7 @@
 		},	
 		{
 			"key":"bili",
-			"name":"B站 | Bili[jar]",
+			"name":"Bilibili",
 			"type":3,
 			"api": "csp_Bili",
 			"searchable": 1,
@@ -446,7 +447,7 @@
 		{"key":"PanSearch","name":"PanSearch|网盘搜索","type":3,"api":"csp_PanSearch","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy"},
 	 {
       "key": "度搜",
-      "name": "度搜┃网盘搜索",
+      "name": "度搜|网盘搜索",
       "type": 3,
       "api": "csp_BdxdGuard",
       "searchable": 1,
@@ -639,14 +640,7 @@
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
-			{
-				"name": "凤凰直播",
-				"type": 0,
-				"url": "https://tv.920410.dpdns.org/fh.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
+			
 			{
 				"name": "体育赛事",
 				"type": 0,
@@ -656,15 +650,7 @@
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
-			
-			{
-				"name": "国际直播",
-				"type": 0,
-				"url": "https://d.kstore.dev/download/13045/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E5%A4%96.txt",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
+		
 			{
 				"name": "肥羊B站直播",
 				"type": 0,
@@ -847,7 +833,7 @@
 					".*ulivetv.*"
 				]
 			},
-			{"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
+			{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
 			{"host":"www.sharenice.net","rule":["sovv.qianpailive.com","vid="],"filter":[]},
 			{"host":"www.sharenice.net","rule":["douyin.com","/play/"]},
 			{"host":"m.ysxs8.vip","rule":["ysting.ysxs8.vip:81","xmcdn.com"],"filter":[]},
@@ -855,35 +841,6 @@
 			{"host":"www.agemys.cc","rule":["cdn-tos","obj/tos-cn"]},
 			{"host":"www.fun4k.com","rule":["https://hd.ijycnd.com/play","index.m3u8"]},
 			{"host":"zjmiao.com","rule":["play.videomiao.vip/API.php","time=","key=","path="]},
-			
-			{
-				"name": "磁力广告",
-				"hosts": [
-					"magnet"
-				],
-				"regex": [
-					"更多",
-					"社 區",
-					"x u u",
-					"最 新",
-					"直 播",
-					"更 新",
-					"社 区",
-					"有 趣",
-					"英皇体育",
-					"全中文AV在线",
-					"澳门皇冠赌场",
-					"哥哥快来",
-					"美女荷官",
-					"裸聊",
-					"新片首发",
-					"UUE29"
-				]
-			}
-		],
-		"parses": [
-		],
-		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
-		"wallpaper": ".https://images.unsplash.com/photo-1750055449467-6a488edd16a2?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img"
+		]
+		
 }
