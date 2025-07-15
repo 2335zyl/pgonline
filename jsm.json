@@ -394,15 +394,6 @@
        "filterable": 1,
        "ext": "./js/PTT.js"},
 
-       {  
-       "key": "HBO",
-       "name": "🍃HBO┃采集",
-       "type": 3,
-       "api": "./api/drpy2.min.js",                "searchable": 1,
-       "quickSearch": 1,
-        "changeable": 1,
-       "filterable": 1,
-       "ext": "./js/HBO.js"},
 		{
       "key": "dyttzyw",
       "name": "🍃天堂┃采集",
