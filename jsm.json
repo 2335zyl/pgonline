@@ -217,32 +217,17 @@
        "filterable": 1,
        "ext": "./js/Emby.js"},
         
-		{
-            "key": "零度影视APP.py",
-            "name": "零度｜超清",
-            "type": 3,
-            "api": "./py/零度影视APP.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
             {
       "key": "爱看机器人",
       "name": "爱看｜超清",
       "type": 3,
-      "api": "csp_Ikanbot",
+      "api": "csp_WexikanbotGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://chuxinya.top/f/qY8NtX/pizazz.jar;md5;46761ee087c0f297de2abf92ec088591",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1752426605450/wex.png;md5;16076852fc989e402b748a4f69e48f0b",
       "filterable": 1
     },
-        {
-			"key": "牛牛",
-			"name": "牛牛｜超清",
-			"type": 3,
-			"api": "https://13826.kstore.space/mioaying.py"
-		},
+        
 		{
 		"key": "QD4K",
 		"name": "巧技┃超清",
@@ -393,7 +378,17 @@
         "changeable": 1,
        "filterable": 1,
        "ext": "./js/PTT.js"},
-
+{
+      "key": "HBO",
+      "name": "🍃HBO┃采集",
+      "type": 3,
+      "api": "./api/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": "./js/HBO.js"
+    },
 		{
       "key": "dyttzyw",
       "name": "🍃天堂┃采集",
